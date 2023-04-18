@@ -14,7 +14,7 @@ const Carousel_component = ({data}) =>{
         console.log(width);
         cardBoxRef1.current.scrollLeft = cardBoxRef1?.current?.scrollLeft - 200; //width
     }
-        //can move it with full width of carousel
+       
     const handleNextbtn = () => {
         let width = cardBoxRef1?.current?.clientWidth;
         cardBoxRef1.current.scrollLeft = cardBoxRef1?.current?.scrollLeft + 200; //width

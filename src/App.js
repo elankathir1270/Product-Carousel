@@ -1,24 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Carousel_component from './carousel/Carousel';
+import {ProductData, ProductData2} from "./productdata/ProductData"
 
 function App() {
+
   return (
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+        <h1 className='head'>PRODUCT CAROUSEL</h1>
+
+      <Carousel_component data= {ProductData} />
+      <Carousel_component data= {ProductData2} />
+
     </div>
+
   );
 }
 

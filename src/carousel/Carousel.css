@@ -1,0 +1,25 @@
+.container {
+    position: relative;
+    overflow: hidden;
+    padding: 25px;
+}
+.pre-btn, .next-btn {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+.next-btn {
+    right: 0;
+    margin-right: 20px;
+}
+.card_container {
+   
+    display: flex;
+    padding: 0px 10px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  
+}
